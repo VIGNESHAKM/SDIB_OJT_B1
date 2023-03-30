@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include<conio.h>
+#include<dos.h>
+//to avoid floating point error.
+
+void dummy(float a)
+{
+float *p=&a;
+}
+struct bill
+{
+char item[40];
+float qty,price;
+}
+b[100];
+int main()
+{
+clrscr();
+int i=0,c=1;
+char ch;
+float amt,total=0;
+do {
+flush sull();
+
+printf("enter the product name:"):
+gets(b[i]*item);
+printf("enter the quantites and price:");
+scanf("%f %f, &b[i]*qty,b[i]*price");
+flush sull ();
+printf("add more items[Y/N]");
+scanf("%c",&ch);
+
+if(ch=='y')
+{
+{i++;c++};
+}
+while(ch=='y');
+printf("---------------------------------------------------------");
+text colour(RED);
+text background(WHITE);
+printf("\t\t\t\t\t\b\b");
+cprintf("S U P E R   M A R K E T \N");
+PUTS("------------------------------------------------------------");
+PRINTF("%D -10S% 15S %17S \N", "item", "qty","price","amount");
+puts("-------------------------------------------------------------");
+for(i=0;i<c;i++)
+{
+amt=b[i]*qty*b[i]*price;
+total=total+amt;
+printf("% -9s %16 .2f \t %10.2f \t %t %11.2f \n",b[i].item,b[i].qty,b[i].price,amt");
+}
+puts("--------------------------------------------------------------");
+struct date d;
+printf("total amount : \t\t\t\t %3f \n",total);
+printf("billing date: %d %d %d %d \n",d.da_day,d,da_man,d.da_year);
+puts("happy shopping");
+puts("\t\t\t\t visit again for our shop");
+getch():
+}
+
+
