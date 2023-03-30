@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+int phy,chem,math,comp,bio;
+float per;
+/* inputs marks of 5 subjects from user*/
+printf("enter five subjects marks");
+scanf("%d %d %d %d %d &phy,&chem, &math,&comp,&bio );
+per=(phy+chem+bio+math+comp)/5.0;
+printf("percentage =%2f\n", per);
+/*find the grade according to the percentage*/
+if(per>=90)
+{
+printf(":grade A");
+}
+else if(per>=80)
+{
+printf("grade B");
+}
+else if(per>=70)
+{
+printf("grade C");
+}
+else if (per>=60)
+{
+printf("grade D");
+}
+else if(per>=40)
+{
+printf("grade E");
+}
+else printf("grade F");
+}
+return 0;
+}
+
