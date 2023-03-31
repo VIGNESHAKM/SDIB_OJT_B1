@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "FN1.C": "cpp",
+        "FACTORIAL.C": "cpp",
+        "FAC2.C": "cpp",
+        "AUTO.C": "cpp",
+        "FOR.C": "cpp",
+        "SUARE.C": "cpp",
+        "PRINT.C": "cpp",
+        "STATIC.C": "cpp",
+        "THREE.C": "cpp",
+        "PR1.C": "cpp",
+        "PB3.C": "cpp",
+        "stdio.h": "c"
+    }
+}
